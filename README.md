@@ -3,12 +3,12 @@
 제출 완료 O
 현재 미완성 X
 
-Linux
--day1
+Linux ====
+-day1 
 --hw1  
 --hw2  
 
-C++&Qt
+C++&Qt ====
 -day1
 --hw1  
 --hw2  
@@ -29,7 +29,7 @@ C++&Qt
 
 -C++&Qt Project
 
-ROS2
+ROS2  ====
 -day1
 --hw1
 --hw2
