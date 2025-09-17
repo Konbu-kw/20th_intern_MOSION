@@ -1,0 +1,3 @@
+/home/mso/Desktop/intern_ws/C++&qt/QT_Project/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/qt_template.dir
+/home/mso/Desktop/intern_ws/C++&qt/QT_Project/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/edit_cache.dir
+/home/mso/Desktop/intern_ws/C++&qt/QT_Project/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/rebuild_cache.dir

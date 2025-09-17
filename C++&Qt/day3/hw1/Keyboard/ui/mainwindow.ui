@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>431</width>
+    <height>477</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(180, 180, 180); 
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="B1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 11pt &quot;Ubuntu&quot;;
+    color: black;
+    background-color: rgb(246,246,246);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+}</string>
+    </property>
+    <property name="text">
+     <string>.,?!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_1">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>170</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 500 12pt &quot;Ubuntu&quot;;</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>170</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 11pt &quot;Ubuntu&quot;;
+    color: black;
+    background-color: rgb(246,246,246);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+}</string>
+    </property>
+    <property name="text">
+     <string>abc</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>170</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 500 12pt &quot;Ubuntu&quot;;</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B3">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>170</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 11pt &quot;Ubuntu&quot;;
+    color: black;
+    background-color: rgb(246,246,246);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+}</string>
+    </property>
+    <property name="text">
+     <string>def</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Backspace">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>170</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 28pt &quot;Ubuntu&quot;;
+    background-color: rgb(210,210,210);
+    color: rgb(100,100,100);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+    color: rgb(20,20,240);
+}</string>
+    </property>
+    <property name="text">
+     <string>⬅</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>170</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 500 12pt &quot;Ubuntu&quot;;</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>240</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 500 12pt &quot;Ubuntu&quot;;</string>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 11pt &quot;Ubuntu&quot;;
+    color: black;
+    background-color: rgb(246,246,246);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+}</string>
+    </property>
+    <property name="text">
+     <string>ghi</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>240</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 500 12pt &quot;Ubuntu&quot;;</string>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B6">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>240</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 11pt &quot;Ubuntu&quot;;
+    color: black;
+    background-color: rgb(246,246,246);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+}</string>
+    </property>
+    <property name="text">
+     <string>mno</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Enter">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>240</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 25pt &quot;Ubuntu&quot;;
+    background-color: rgb(210,210,210);
+    color: rgb(100,100,100);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+    color: rgb(20,20,240);
+}</string>
+    </property>
+    <property name="text">
+     <string>↵</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>240</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 500 12pt &quot;Ubuntu&quot;;</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B5">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>240</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 11pt &quot;Ubuntu&quot;;
+    color: black;
+    background-color: rgb(246,246,246);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+}</string>
+    </property>
+    <property name="text">
+     <string>jkl</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>310</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 500 12pt &quot;Ubuntu&quot;;</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 11pt &quot;Ubuntu&quot;;
+    color: black;
+    background-color: rgb(246,246,246);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+}</string>
+    </property>
+    <property name="text">
+     <string>pqrs</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B10">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>380</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 11pt &quot;Ubuntu&quot;;
+    color: black;
+    background-color: rgb(246,246,246);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>380</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 500 12pt &quot;Ubuntu&quot;;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Comma">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>380</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 11pt &quot;Ubuntu&quot;;
+    color: rgb(100,100,100);
+    background-color: rgb(210,210,210);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+}</string>
+    </property>
+    <property name="text">
+     <string>,</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>310</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 500 12pt &quot;Ubuntu&quot;;</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B9">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>310</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 11pt &quot;Ubuntu&quot;;
+    color: black;
+    background-color: rgb(246,246,246);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+}</string>
+    </property>
+    <property name="text">
+     <string>wxyz</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Shift">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>310</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 28pt &quot;Ubuntu&quot;;
+    background-color: rgb(210,210,210);
+    color: rgb(100,100,100);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+    color: rgb(20,20,240);
+}</string>
+    </property>
+    <property name="text">
+     <string>⬆</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>310</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 500 12pt &quot;Ubuntu&quot;;</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B8">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>310</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 11pt &quot;Ubuntu&quot;;
+    color: black;
+    background-color: rgb(246,246,246);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+}</string>
+    </property>
+    <property name="text">
+     <string>tuv</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Space">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>380</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 20pt &quot;Ubuntu&quot;;
+    color: rgb(100,100,100);
+    background-color: rgb(210,210,210);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+}</string>
+    </property>
+    <property name="text">
+     <string>␣</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Null_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>380</y>
+      <width>41</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 11pt &quot;Ubuntu&quot;;
+    color: rgb(100,100,100);
+    background-color: rgb(210,210,210);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+}</string>
+    </property>
+    <property name="text">
+     <string>!#1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Null">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>380</y>
+      <width>41</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 11pt &quot;Ubuntu&quot;;
+    color: black;
+    background-color: rgb(210,210,210);
+    border-radius: 7px; 
+    min-height: 40px;  
+}
+/* 눌렀을 때 효과 */
+QPushButton:pressed {
+    background-color: rgb(200, 200, 200); 
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>391</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(246, 245, 244)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>29</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <zorder>B9</zorder>
+   <zorder>B8</zorder>
+   <zorder>B7</zorder>
+   <zorder>B6</zorder>
+   <zorder>B5</zorder>
+   <zorder>B4</zorder>
+   <zorder>B1</zorder>
+   <zorder>label_1</zorder>
+   <zorder>B2</zorder>
+   <zorder>label_2</zorder>
+   <zorder>B3</zorder>
+   <zorder>Backspace</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>Enter</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>B10</zorder>
+   <zorder>label_8</zorder>
+   <zorder>Comma</zorder>
+   <zorder>label_9</zorder>
+   <zorder>Shift</zorder>
+   <zorder>label_10</zorder>
+   <zorder>Space</zorder>
+   <zorder>Null_2</zorder>
+   <zorder>Null</zorder>
+   <zorder>textEdit</zorder>
+   <zorder>label</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>431</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
