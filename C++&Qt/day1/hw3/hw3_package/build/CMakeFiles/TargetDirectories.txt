@@ -1,3 +1,0 @@
-/home/sion/intern_ws/hw3/hw3/build/CMakeFiles/test.dir
-/home/sion/intern_ws/hw3/hw3/build/CMakeFiles/edit_cache.dir
-/home/sion/intern_ws/hw3/hw3/build/CMakeFiles/rebuild_cache.dir
