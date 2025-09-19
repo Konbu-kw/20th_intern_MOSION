@@ -1,4 +1,0 @@
-/home/mso/Desktop/intern_ws/C++&qt/day4/kakaotalk/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/KakaoUDPChat.dir
-/home/mso/Desktop/intern_ws/C++&qt/day4/kakaotalk/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/edit_cache.dir
-/home/mso/Desktop/intern_ws/C++&qt/day4/kakaotalk/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/rebuild_cache.dir
-/home/mso/Desktop/intern_ws/C++&qt/day4/kakaotalk/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/KakaoUDPChat_autogen.dir
